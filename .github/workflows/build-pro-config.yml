@@ -82,8 +82,7 @@ jobs:
     #- name: Execute unit tests
     #  run: dotnet test
     - name: Where are we
-      run: |
-        echo dir
+      run: dir
         
     # Restore the application to populate the obj folder with RuntimeIdentifiers
     - name: Restore the application
